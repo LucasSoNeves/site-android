@@ -1,0 +1,129 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: rgb(127, 190, 127);
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(0deg, rgb(26, 136, 26), rgb(110, 185, 110));
+    margin: -21px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header > h1 {
+    padding: 8px;
+}
+
+nav {
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+header nav a:hover {
+    background-color: rgb(105, 199, 105);
+    border-radius: 10px;
+    transition-duration: 1.5s;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    box-shadow: 1px 1px 1px black;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+img {
+    width: 100%;
+}
+
+picture img#bug {
+    width: 400px;
+}
+
+.titulo {
+    text-align: left;
+    padding-left: 20px;
+    font-family: idroid;
+    background-image: radial-gradient(rgb(64, 212, 64), rgb(124, 184, 124));
+}
+
+main p {
+    text-align: justify;
+    text-indent: 40px;
+    padding: 10px;
+}
+main p a {
+    text-decoration: none;
+    background-color: green;
+    padding: 2px;
+}
+
+div section{
+    background-color: rgb(38, 95, 38);
+}
+
+div section video {
+    width: 70%;
+    margin: 50px;
+}
+
+.final {
+    background-color: rgb(147, 212, 147);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.titfinal {
+    text-align: left;
+    padding: 5px;
+    background-color: rgb(45, 141, 45);
+    border-radius: 10px;
+}
+
+.final li {
+    float: left;
+    width: 50%;
+    text-align: justify;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+.final p {
+    text-align: justify;
+    text-indent: 40px;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.final p#p{
+    margin-top: 145px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: rgb(38, 143, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: -21px;
+}
+
+footer a {
+    text-decoration: none;
+}
